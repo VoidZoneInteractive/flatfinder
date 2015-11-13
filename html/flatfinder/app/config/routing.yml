@@ -1,0 +1,3 @@
+app:
+    resource: "@FlatFinder/Controller/"
+    type:     annotation

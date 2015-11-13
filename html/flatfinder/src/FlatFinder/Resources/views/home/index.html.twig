@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    {% stylesheets '@FlatFinder/Resources/public/css/*' output='css/compiled/main.css' filter='cssrewrite' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+</head>
+<body onload="initMap();">
+<div id="map"></div>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key={{ googleMapsApiKey }}&callback=initMap">
+</script>
+<script>
+    var markerData = {{ markerData|raw }};
+</script>
+{% javascripts '@FlatFinder/Resources/public/js/*' output='js/compiled/main.js' %}
+<script src="{{ asset_url }}"></script>
+{% endjavascripts %}
+</body>
+</html>
