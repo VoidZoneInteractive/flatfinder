@@ -86,11 +86,11 @@ sudo a2enmod headers
 sudo service apache2 restart
 
 # Remove localhost limitation from dev (very unsafe, only for Vagrant purpose)
-sudo /bin/sed -i "s/header('HTTP\/1.0 403 Forbidden');/\/\/header('HTTP\/1.0 403 Forbidden');/" /vagrant/html/webgears/web/app_dev.php
-sudo /bin/sed -i "s/exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');/\/\/exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');/" /vagrant/html/webgears/web/app_dev.php
+#sudo /bin/sed -i "s/header('HTTP\/1.0 403 Forbidden');/\/\/header('HTTP\/1.0 403 Forbidden');/" /vagrant/html/webgears/web/app_dev.php
+#sudo /bin/sed -i "s/exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');/\/\/exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');/" /vagrant/html/webgears/web/app_dev.php
 
-sudo /bin/sed -i "s/header('HTTP\/1.0 403 Forbidden');/\/\/header('HTTP\/1.0 403 Forbidden');/" /vagrant/html/webgears/web/config.php
-sudo /bin/sed -i "s/exit('This script is only accessible from localhost.');/\/\/exit('This script is only accessible from localhost.');/" /vagrant/html/webgears/web/config.php
+#sudo /bin/sed -i "s/header('HTTP\/1.0 403 Forbidden');/\/\/header('HTTP\/1.0 403 Forbidden');/" /vagrant/html/webgears/web/config.php
+#sudo /bin/sed -i "s/exit('This script is only accessible from localhost.');/\/\/exit('This script is only accessible from localhost.');/" /vagrant/html/webgears/web/config.php
 
 
 # Clone project into symfony
