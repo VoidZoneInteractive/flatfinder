@@ -20,3 +20,6 @@
 10.175.15.1 - - [13/Nov/2015:11:48:04 +0000] "GET /favicon.ico HTTP/1.1" 200 6819 "http://10.175.15.150/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
 10.175.15.1 - - [13/Nov/2015:11:50:51 +0000] "GET / HTTP/1.1" 500 743 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
 10.175.15.1 - - [13/Nov/2015:11:50:59 +0000] "GET /favicon.ico HTTP/1.1" 200 6819 "http://10.175.15.150/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+10.175.15.1 - - [13/Nov/2015:14:12:13 +0000] "GET / HTTP/1.1" 200 5775 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+10.175.15.1 - - [13/Nov/2015:14:12:27 +0000] "GET /css/compiled/main.css HTTP/1.1" 404 743 "http://10.175.15.150/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+10.175.15.1 - - [13/Nov/2015:14:12:27 +0000] "GET /js/compiled/main.js HTTP/1.1" 404 744 "http://10.175.15.150/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
